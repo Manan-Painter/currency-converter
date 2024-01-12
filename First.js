@@ -412,8 +412,154 @@
 // });
 
 
-for(let i = 0; i<=100; i++){
-    if(i%2===0){
-        console.log(i);
-    }
-}
+// for(let i = 0; i<=100; i++){
+//     if(i%2===0){
+//         console.log(i);
+//     }
+// }
+
+// const a = prompt("Enter a first Num");
+// const b =prompt("Enter a sec num");
+// var res = parseInt(a) + parseInt(b);
+// console.log(res);
+
+// const sqrt = prompt("enter a sqrt num");
+// var res = Math.sqrt(sqrt);
+// console.log(res);
+
+// const a = prompt("Enter value");
+// const b = prompt("Enter value");
+// const c = prompt("Enter value");
+// var s = (parseInt(a) + parseInt(b) + parseInt(c))/2;
+// console.log(s); 
+
+// let a = prompt("Enter a num");
+// let b = prompt("Entetr a num");
+// console.log(`before : ${a},${b}`);
+// var temp;
+// temp = a;
+// a = b;
+// b = temp;
+// console.log(`after : ${a},${b}`);
+
+// function convert(){
+//     var kms = document.getElementById("data").value;
+    
+//     const factor = 0.621371;
+//     var miles = kms*factor;
+//     document.getElementById("res").innerText = `${miles} miles`;
+// }
+
+// const num = prompt("Enter a num");
+// if(num<0){
+//     console.log("num is nagative");
+// }else if(num>0){
+//     console.log("num is positive");
+// }else{
+//     console.log("num is zero");
+//}
+
+// let a = Math.random()*(100-1)+100;
+// console.log(a);
+// console.log(Math.floor(a));
+
+// const num = prompt("Enter a num");
+// if(num%2===0){
+//     console.log('this is a even num');
+// }else{
+//     console.log("this is a odd num");
+// }
+
+// const num = prompt("Enter a num");
+// if(num==1){
+//     console.log("this is not a prime num");
+// }
+// else if(num < 1){
+//     console.log("this is not a prime num");
+// }else{
+//     for(let i = 2; i<num; i++){
+//         if(num%i==0){
+//             var res = ("this not a prime num");
+//             break;
+//         }else{
+//             var res = ("this is a prime num");
+//         }
+//     }
+//     console.log(res);
+// }
+
+// var string = prompt("Enter a string");
+// var strlen = string.length;
+// var revstr = '';
+// for(var i = strlen-1; i>=0; i--){
+//     revstr = revstr + string[i];
+// }
+// console.log(revstr);
+
+// const a = prompt("enter a num");
+// const b = prompt("enter a num");
+// const c = prompt("enter a num");
+// var res = Math.max(a,b,c);
+// console.log(res);
+
+// const num = prompt("Enter a Num");
+// var fact = 1;
+// for(let i = 1; i<=num; i++){
+//     fact = fact * i;
+//     console.log(fact);
+// }
+
+// const num = prompt("Enter a num");
+// for (let i = 1; i<=10; i++){
+//     let res = i*num;
+//     console.l,og(res);
+// }
+
+// const a = prompt("Enter a num");
+// const b = prompt("Enter a num");
+// const opr = prompt("Enter value +,-,*,/");
+// switch (opr) {
+//     case "+":
+//         var res = parseFloat(a)+parseFloat(b);
+//         console.log(res);
+//         break;
+//         case "-":
+//             var res = parseFloat(a)-parseFloat(b);
+//             console.log(res)
+//             break;
+//             case "*":
+//                 var res = parseFloat(a)*parseFloat(b);
+//                 console.log(res);
+//                 break;
+//                 case "/":
+//                     var res = parseFloat(a)/parseFloat(b);
+//                     console.log(res);
+//                     break;          
+//                     default:
+//                         console.log("invalid operator");
+//     }
+
+
+// const a = prompt("Enter a num");
+// const b = prompt("Enter a num");
+// const c = prompt("Enter a num");
+
+// res1 = a%10;
+// res2 = b%10;
+// res3 = c%10;
+
+// if(res1===res2 && res1===res3){
+//     console.log("same digit");
+// }
+
+// let a = 0;
+// let b = 1;
+// console.log(a);
+// console.log(b);
+// for(let i =0; i<=10;i++){
+// var temp = a + b;
+// console.log(temp);
+// a = b;
+// b= temp;
+// }
+
